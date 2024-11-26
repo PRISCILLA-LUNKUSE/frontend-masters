@@ -1,0 +1,98 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333333; /* Dark grey background */
+  color: #f4f4f4;
+}
+
+/* Navigation Bar Styles */
+header {
+  background-color: #800000; /* Dark maroon */
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .logo em.masters {
+  font-family: 'Mrs Eaves OT', serif;
+  font-style: italic;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+nav .nav-links li {
+  margin-left: 20px;
+}
+
+nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav .sign-up {
+  display: flex;
+  align-items: center;
+}
+
+nav .sign-up input {
+  margin-right: 10px;
+}
+
+nav .sign-up .sign-up-btn {
+  padding: 8px 15px;
+  background-color: #fff;
+  color: #800000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Main Content Styles */
+.content {
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.content .intro h1 {
+  font-size: 3rem;
+}
+
+.content .intro p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 15px;
+}
+
+ 
+   
+  
+  
+  
